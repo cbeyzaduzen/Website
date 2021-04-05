@@ -1,0 +1,110 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    color: #ff3374;
+}
+
+#navbar{
+    background-color: #ffb3cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    color: #ff3374;
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover{
+    background-color: #ffccdc;
+    border-radius: 10px;
+}  
+
+#home img{
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects{
+    
+    padding: 1rem;
+}
+
+#projects .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projects .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#projects .items .item:hover{
+     color: coral;
+     opacity: 0.6;
+}
+
+#projects .items .item a{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#projects .items .item a:hover{
+    color: coral;
+    opacity: 0.6;
+}
+
+
+#contact{
+    background-color:  #ffe6ee;
+    
+    
+    padding: 1rem;
+
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover{
+    opacity: 0.9;
+}
+
